@@ -16,6 +16,7 @@ $usuario_nome = $_SESSION['usuario_nome'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistema Fianceiro</title>
+    <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
     <h1>Sistema Financeiro</h1>
