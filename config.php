@@ -16,4 +16,9 @@ try {
 } catch (PDOException $e) {
     die("Erro na conexão com o banco de dsdos:" . $e->getMessage());
 }
+
+//iniciar sessão se ainda não foi iniciada
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 ?>
