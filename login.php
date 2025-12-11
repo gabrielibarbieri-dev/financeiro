@@ -24,7 +24,7 @@ if (isset($_SESSION['usuario_id'])) {
     <?php exibir_mensagem(); ?>
 
     <form action="autenticar.php" method="post">
-        <div>
+        <div class="container">
             <br>
             <label for="email">E-mail:</label>
             <input type="email" name="email" id="email" required>
@@ -40,6 +40,6 @@ if (isset($_SESSION['usuario_id'])) {
         </div>
     </form>
     
-    <p>Não tem conta? <a href="registro.php">Cadastre-sen aqui.</a></p>
+    <p>Não tem conta? <a href="registro.php">Cadastre-se aqui.</a></p>
 </body>
 </html>
