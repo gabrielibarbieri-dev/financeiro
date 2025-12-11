@@ -29,6 +29,9 @@ $categorias = $stmt->fetchAll();
     <link rel="stylesheet" href="_css/style.css">
 </head>
 <body>
+  
+  <?php include 'navbar.php';?>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Financeiro</a>
